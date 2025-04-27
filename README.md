@@ -147,11 +147,6 @@ sections:
  - [Functional Requirements](Requirements/FunctionalRequirements.md)  
  - [Non-Functional Requirements](Requirements/NonFunctionalRequirements.md)
 
-![Interview with Recruiter, Kalpana](Images/kalpana_interview.png)
-_Interview with Recruiter, Kalpana_
-
-![Interview with TalentOps, Kankana](Images/kankana_interview.png)
-_Interview with TalentOps, Kankana_
 
 ## Business Metrics and Success Criteria
 
@@ -265,13 +260,13 @@ Our solution leverages MindComputeScheduler as the central platform while enhanc
 ### Solution Approach
 
 ## Context Diagram
-![Context Diagram](Images/context_diagram.png)
+![Context Diagram](images/context_diagram.png)
 
 ## System Overview Diagram
-![System Overview Diagram](Images/SystemOverview.png)
+![System Overview Diagram](images/SystemOverview.png)
 
 ## Architecture Diagram
-![Architecture Enhancement Diagram](Images/architecture_diagram.png)
+![Architecture Enhancement Diagram](images/architecture_diagram.png)
 
 Our architecture focuses on three key enhancement areas:
 
@@ -295,7 +290,7 @@ The Template Processing Service is defined as a **standalone microservice** with
 - Exposes API endpoints for synchronous operations when needed
 
 <div align="center" style="text-align: center;">
-    <img src="Images/TemplateProcessingComponentDiagram.png" />
+    <img src="images/TemplateProcessingComponentDiagram.png" />
 </div>
 
 #### Architecture Components
@@ -442,7 +437,7 @@ The Post-Interview Process Orchestrator (PIPO) is a platform service that provid
 
 PIPO automates WorkHourLogger filing and  CandidateEvaluationSheet submission to eliminate administrative overhead for interviewers. Using event-driven architecture and AI-powered processing, PIPO automatically captures interview metadata from VideoMeetingConnector meetings, enriches it with context from BrightHire and MindComputeScheduler, and creates accurate WorkHourLogger entries and pre-fill CandidateEvaluationSheets in related systems.
 
-![PIPO System Architecture Overview](Images/pipo-system-architecture.png)
+![PIPO System Architecture Overview](images/pipo-system-architecture.png)
 
 
 #### Problem Statement
@@ -634,10 +629,10 @@ Since MindComputeScheduler already serves as the central platform with existing 
 - **Availability Optimization**: Improve how interviewer availability is captured and managed
 - **Notification Enhancements**: Extend the notification system for better stakeholder communication
 
-![Tag Manager Context](Images/tagManagerContext.png)
+![Tag Manager Context](images/tagManagerContext.png)
 _Tag Manager Context_
 
-![Tag Manager Containers](Images/tagManagerContainers.png)
+![Tag Manager Containers](images/tagManagerContainers.png)
 _Tag Manager Containers_
 
 ### 4. AI Assistant for Recruiters
